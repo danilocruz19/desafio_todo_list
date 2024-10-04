@@ -1,3 +1,5 @@
+import 'package:desafio_todo_list/card_das_tarefas.dart';
+import 'package:desafio_todo_list/screen_todo_list.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,9 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(),
-      home: Container(),
+      theme: ThemeData.dark(),
+      home: TodoList(),
     );
   }
 }
